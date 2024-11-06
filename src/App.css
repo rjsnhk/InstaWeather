@@ -497,13 +497,9 @@ div#txt {
   }
 }
 
-@media screen and (max-width: 533px) {
-  h1 {
-    font-size: 33px;
-  }
-}
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 533px) {
   /*--w3layouts--*/
   /*--agileits--*/
   h1 {
@@ -550,6 +546,8 @@ div#txt {
   .temperature {
     text-align: center;
     width: 100%;
+    transform: translateY(-100px);
+	  
   }
   .copyright {
     padding: 20px;
