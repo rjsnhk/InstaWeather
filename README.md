@@ -1,24 +1,18 @@
+
+
 # Weather Application Setup Guide
 
-This guide provides step-by-step instructions for building a weather application in React. This application has two main functions:
+This guide provides step-by-step instructions for building a weather application in React. The application has two main functions:
 
 1. Display real-time weather data for your current location.
-2. Show weather conditions of a specific city based on user search.
+2. Show weather conditions for a specific city based on user search.
 
-By following this guide, you'll learn React basics, including hooks, states, props, components, API calls, dynamic data handling, working with forms, and more.
+By following this guide, you'll learn React basics like hooks, states, props, components, API calls, dynamic data handling, working with forms, and more.
 
 ## Getting Started
 
 ### Live Demo
-
-<a
-  href="https://instaweather.onrender.com/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="live-view-button px-4 py-2 mt-4 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700 transition-all duration-200"
->
-  View Live App
-</a>
+Check out the [live demo here](https://instaweather.onrender.com/).
 
 ### Source Code Download
 You can find the source code and demo by scrolling down.
@@ -200,4 +194,6 @@ To add weather icons that represent conditions like clear sky or clouds, use the
 
 ---
 
-That's it! You've now created a functional weather application that shows both current location weather and allows city-specific searches. Keep experimenting with additional features to enhance your app further. Enjoy coding!
+
+
+That's it! You've now created a functional weather application that shows both current location weather and allows city-specific searches. You also added a live view button for easy access to the demo. Keep experimenting with additional features to enhance your app further. Enjoy coding!
