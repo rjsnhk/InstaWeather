@@ -9,6 +9,17 @@ By following this guide, you'll learn React basics, including hooks, states, pro
 
 ## Getting Started
 
+### Live Demo
+
+<a
+  href="https://instaweather.onrender.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="live-view-button px-4 py-2 mt-4 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700 transition-all duration-200"
+>
+  View Live App
+</a>
+
 ### Source Code Download
 You can find the source code and demo by scrolling down.
 
