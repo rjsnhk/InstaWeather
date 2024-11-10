@@ -14,7 +14,7 @@ function App() {
 
         Weather data powered by <a target="_blank" href="https://openweathermap.org/">
           OpenWeather
-        </a> | Developed with ❤️ by <a target="_blank" href="https://www.linkedin.com/in/rjsnhk/">
+        </a> | Developed with ❤️ by <a target="_blank" href="https://rjsnhk.onrender.com/">
           Rajesh Nahak
         </a> using React.
         
