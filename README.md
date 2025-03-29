@@ -1,5 +1,3 @@
----
-
 # 🌦️ Weather Application Setup Guide  
 
 This guide provides step-by-step instructions for building a **Weather Application** in React. 🚀 The application has two main functions:  
