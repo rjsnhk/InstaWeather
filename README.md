@@ -47,17 +47,36 @@ By following this guide, you'll learn React basics like **hooks, states, props, 
 
 To fetch weather data, sign up for an **OpenWeatherMap API key** (free and accurate weather data 🌍).  
 
-📌 **Steps to add the API Key:**  
-1. Register on OpenWeatherMap & get your API key.  
-2. Create a file `apiKeys.js` and store the key securely:  
+
+## 🔑 API Key Setup  
+
+To fetch weather data, sign up for an **OpenWeatherMap API key** (free and accurate weather data 🌍).  
+
+📌 **Steps to Securely Add the API Key:**  
+
+1️⃣ **Register on OpenWeatherMap & get your API key.**  
+2️⃣ **Create a `.env` file in your project root and add the key:**  
+
+   ```
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+   ```  
+
+3️⃣ **Modify `apiKeys.js` to read from the environment variables:**  
 
    ```javascript
    module.exports = {
-     key: "{Your API Key Here}",
+     key: process.env.REACT_APP_WEATHER_API_KEY,
      base: "https://api.openweathermap.org/data/2.5/",
    };
-   ```
+   ```  
 
+🚨 **Important:** Never share your `.env` file or push it to GitHub! Add `.env` to your `.gitignore` file:  
+
+   ```
+   .env
+   ```  
+
+Now, your API key is safely stored and protected! 🔐✅
 ---
 
 ## 📍 App Phase 1: Display Weather for Current Location  
